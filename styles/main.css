@@ -581,7 +581,7 @@ button {
 }
 
 .parallax {
-  background-image: url("img/bg/parallax-bg42.jpg");
+  background-image: url("../img/bg/parallax-bg42.jpg");
   height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -616,7 +616,7 @@ button {
   left: 0;
   top: 0;
   opacity: 0.7;
-  background: url("img/bg/1616551737_3-p-svetlo-zheltii-fon-32.jpg") top left no-repeat;
+  background: url("../img/bg/1616551737_3-p-svetlo-zheltii-fon-32.jpg") top left no-repeat;
   background-size: 100% 100%;
 }
 
@@ -670,7 +670,7 @@ button {
   width: 1rem;
   height: 1rem;
   vertical-align: text-bottom;
-  background: url("img/svg/email.svg") center no-repeat;
+  background: url("../img/svg/email.svg") center no-repeat;
 }
 
 .header-order-btn:before {
@@ -680,7 +680,7 @@ button {
   width: 1rem;
   height: 1rem;
   vertical-align: text-bottom;
-  background: url("img/svg/pen.svg") center no-repeat;
+  background: url("../img/svg/pen.svg") center no-repeat;
 }
 
 .order {
@@ -816,7 +816,7 @@ button {
 
 #agree:checked + label::before {
   background-color: #33cc33;
-  background-image: url("img/svg/check.svg");
+  background-image: url("../img/svg/check.svg");
 }
 
 /* стили при наведении курсора на checkbox */
@@ -855,7 +855,7 @@ input:not([type=checkbox]):required.invalid {
 }
 
 .content-items {
-  padding: 2rem 0rem;
+  padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
